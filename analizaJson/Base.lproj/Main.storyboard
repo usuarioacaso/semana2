@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="analizaJson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RB-Ce-oJL">
+                                <rect key="frame" x="137" y="20" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wp7-oQ-dRO">
+                                <rect key="frame" x="20" y="187" width="335" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="H89-O8-xS4"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dM5-MM-ILk">
+                                <rect key="frame" x="20" y="291" width="335" height="87"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="h9S-Ck-3nr"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo del Libro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgZ-6p-co3">
+                                <rect key="frame" x="20" y="158" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rda-aa-yHE">
+                                <rect key="frame" x="20" y="262" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="413-vP-N8e">
+                                <rect key="frame" x="20" y="396" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Ingrese el ISBN de 10 digitos" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="cNX-sG-JGj">
+                                <rect key="frame" x="20" y="77" width="335" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="search"/>
+                                <connections>
+                                    <action selector="implementaISBN:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="SYE-Da-miT"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="60f-hp-lVV">
+                                <rect key="frame" x="20" y="431" width="335" height="216"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5xO-d8-oOo"/>
+                            <constraint firstItem="Rda-aa-yHE" firstAttribute="top" secondItem="Wp7-oQ-dRO" secondAttribute="bottom" constant="21" id="839-fa-YVV"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="leading" secondItem="Wp7-oQ-dRO" secondAttribute="leading" id="8nW-dp-RWN"/>
+                            <constraint firstItem="60f-hp-lVV" firstAttribute="leading" secondItem="413-vP-N8e" secondAttribute="leading" id="8vS-q0-bG5"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="leading" secondItem="dM5-MM-ILk" secondAttribute="leading" id="BSx-a9-6Fy"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="centerX" secondItem="9RB-Ce-oJL" secondAttribute="centerX" id="IgW-Om-xeo"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="trailing" secondItem="dM5-MM-ILk" secondAttribute="trailing" id="JZ1-f2-1hx"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="leading" secondItem="QgZ-6p-co3" secondAttribute="leading" id="Liz-2h-TIT"/>
+                            <constraint firstAttribute="bottom" secondItem="60f-hp-lVV" secondAttribute="bottom" constant="20" symbolic="YES" id="OWP-cx-lin"/>
+                            <constraint firstItem="QgZ-6p-co3" firstAttribute="top" secondItem="cNX-sG-JGj" secondAttribute="bottom" constant="59" id="Qmp-nk-AIZ"/>
+                            <constraint firstItem="60f-hp-lVV" firstAttribute="top" secondItem="413-vP-N8e" secondAttribute="bottom" constant="14" id="RCq-W9-Ivu"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="leading" secondItem="Rda-aa-yHE" secondAttribute="leading" id="W4x-7i-Tr2"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="77" id="Y8K-z1-Idr"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="trailing" secondItem="Wp7-oQ-dRO" secondAttribute="trailing" id="Zxd-ye-E6f"/>
+                            <constraint firstItem="Wp7-oQ-dRO" firstAttribute="top" secondItem="QgZ-6p-co3" secondAttribute="bottom" constant="8" symbolic="YES" id="bdc-Zl-MQu"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="et4-OG-Ou6"/>
+                            <constraint firstItem="413-vP-N8e" firstAttribute="top" secondItem="dM5-MM-ILk" secondAttribute="bottom" constant="18" id="hBg-uH-tZZ"/>
+                            <constraint firstItem="dM5-MM-ILk" firstAttribute="top" secondItem="Rda-aa-yHE" secondAttribute="bottom" constant="8" symbolic="YES" id="pLf-Fn-nI1"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="top" secondItem="9RB-Ce-oJL" secondAttribute="bottom" constant="36" id="rYN-4m-Npf"/>
+                            <constraint firstItem="cNX-sG-JGj" firstAttribute="leading" secondItem="413-vP-N8e" secondAttribute="leading" id="rpY-CW-DkY"/>
+                            <constraint firstItem="60f-hp-lVV" firstAttribute="trailing" secondItem="dM5-MM-ILk" secondAttribute="trailing" id="rvS-mp-IcH"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="capturaISBN" destination="cNX-sG-JGj" id="PVo-Y0-bSG"/>
+                        <outlet property="muestraAutor" destination="dM5-MM-ILk" id="mwQ-jW-poU"/>
+                        <outlet property="muestraPortada" destination="60f-hp-lVV" id="PSP-HQ-ln6"/>
+                        <outlet property="muestraTitulo" destination="Wp7-oQ-dRO" id="cZd-Zz-pCm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="375.5"/>
+        </scene>
+    </scenes>
+</document>
